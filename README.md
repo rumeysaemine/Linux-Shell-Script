@@ -1,5 +1,4 @@
-# Linux-Shell-Scripting
-## Linux-Shell-Script
+# Linux-Shell-Script
 Zenity kütüphanesi kullanılarak chmod komutu için hazırlanmış görsel arayüz programıdır.
 
 ## Linux chmod komutu
@@ -29,6 +28,22 @@ chmod komutunun operatörler ile kullanımı:
 chmod u=rwe,g=rw,o=r changemod.sh
 ```
 
+## Kurulum
+Aşağıdaki komutu kullanarak Zenity kütüphanesini indirebilirsiniz.
+```
+sudo apt install zenity
+```
+Dosyayı indirmek ve indirdikten sonra dosyayı çalıştırmak için aşağıdaki komutları kullanabilirsiniz.
+```
+wget https://github.com/rumeysaemine/Linux-Shell-Scripting/blob/main/changemod.sh
+```
+```
+bash changemod.sh
+```
+
+## Programın Çalışması
+Programı çalıştırdığınızda karşınıza ilk dosya seçim penceresi gelecektir. Buradan erişim izinlerini değiştirmek istediğiniz dosyayı seçiniz. Sonrasında kullanıcı türünü seçmeniz için bir pencere açılacaktır. Burada en az bir kullanıcı türü seçmeniz gerekmektedir. Daha sonraki açılan pencerelerde seçtiğiniz her bir kullanıcı türü için erişim izinlerini belirleyebilirsiniz. Program sonlanmadan önce çıkan bildirim penceresinden dosyanızın erişim izinlerinde yaptığınız değişikliği görebilirsiniz.
+
 ## Program Görüntüleri
 ### Dosya Seçim Penceresi
 ![dosyaSecim](https://github.com/rumeysaemine/Linux-Shell-Scripting/blob/main/img/img1.jpg)
@@ -36,3 +51,6 @@ chmod u=rwe,g=rw,o=r changemod.sh
 ![listeDiyalog](https://github.com/rumeysaemine/Linux-Shell-Scripting/blob/main/img/img3.jpg)
 ### İleti Diyaloğu
 ![iletiDiyalog](https://github.com/rumeysaemine/Linux-Shell-Scripting/blob/main/img/img4.jpg)
+
+## Programın çalışmasını anlatan video
+https://youtu.be/H8CYwICR4wI
