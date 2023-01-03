@@ -1,4 +1,6 @@
 # Linux-Shell-Scripting
+## Linux-Shell-Script
+Zenity kütüphanesi kullanılarak chmod komutu için hazırlanmış görsel arayüz programıdır.
 
 ## Linux chmod komutu
 Linux chmod komutu, kullanıcıların dosya ve dizinlere erişim izinlerini değiştirmek için kullanılır.
