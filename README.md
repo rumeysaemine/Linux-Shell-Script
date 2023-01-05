@@ -28,18 +28,15 @@ chmod komutunun operatörler ile kullanımı:
 chmod u=rwe,g=rw,o=r changemod.sh
 ```
 
-## Kurulum
-Aşağıdaki komutu kullanarak Zenity kütüphanesini indirebilirsiniz.
+### Kurulum
+Zenity kütüphanesini indirmek için aşağıdaki komutu kullanabilirsiniz.
 ```
 sudo apt install zenity
 ```
-Dosyayı indirmek ve indirdikten sonra dosyayı çalıştırmak için aşağıdaki komutları kullanabilirsiniz.
-```
-wget https://github.com/rumeysaemine/Linux-Shell-Scripting/blob/main/changemod.sh
-```
+Yukarıdaki Code butonuna daha sonra Download ZIP'e tıklayarak zip dosyasını indirin. İndirdiğiniz zip dosyasında bulunan changemod.sh dosyasını bulunduğunuz dizine taşıdıktan sonra dosyayı çalıştırmak için aşağıdaki komutu kullanabilirsiniz.
 ```
 bash changemod.sh
-```
+````
 
 ## Programın Çalışması
 Programı çalıştırdığınızda karşınıza ilk dosya seçim penceresi gelecektir. Buradan erişim izinlerini değiştirmek istediğiniz dosyayı seçiniz. Sonrasında kullanıcı türünü seçmeniz için bir pencere açılacaktır. Burada en az bir kullanıcı türü seçmeniz gerekmektedir. Daha sonraki açılan pencerelerde seçtiğiniz her bir kullanıcı türü için erişim izinlerini belirleyebilirsiniz. Program sonlanmadan önce çıkan bildirim penceresinden dosyanızın erişim izinlerinde yaptığınız değişikliği görebilirsiniz.
