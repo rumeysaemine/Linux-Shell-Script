@@ -49,5 +49,3 @@ Programı çalıştırdığınızda karşınıza ilk dosya seçim penceresi gele
 ### İleti Diyaloğu
 ![iletiDiyalog](https://github.com/rumeysaemine/Linux-Shell-Scripting/blob/main/img/img4.jpg)
 
-## Programın çalışmasını anlatan video
-https://youtu.be/H8CYwICR4wI
